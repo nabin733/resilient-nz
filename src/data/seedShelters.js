@@ -1,0 +1,32 @@
+export const seedShelters = [
+  {
+    id: '1',
+    title: 'Wellington Regional Stadium Shelter',
+    address: '105 Waterloo Quay, Pipitea, Wellington',
+    latitude: -41.2789,
+    longitude: 174.7825,
+    capacity: 500,
+    isOpen: 1,
+    region: 'Wellington',
+  },
+  {
+    id: '2',
+    title: 'Auckland Domain Civil Defence Centre',
+    address: 'Park Rd, Grafton, Auckland',
+    latitude: -36.86,
+    longitude: 174.77,
+    capacity: 300,
+    isOpen: 1,
+    region: 'Auckland',
+  },
+  {
+    id: '3',
+    title: 'Christchurch Town Hall Shelter',
+    address: '86 Kilmore St, Christchurch Central City',
+    latitude: -43.5289,
+    longitude: 172.6396,
+    capacity: 400,
+    isOpen: 0,
+    region: 'Canterbury',
+  },
+];
